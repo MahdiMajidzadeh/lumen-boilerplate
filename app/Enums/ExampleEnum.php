@@ -2,7 +2,7 @@
 
 namespace App\Enums;
 
-class ExampleEnum
+final class ExampleEnum
 {
     const ENUM_1 = 1;
     const ENUM_2 = 2;
