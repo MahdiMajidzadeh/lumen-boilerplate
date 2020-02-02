@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
+
 class ExampleController extends Controller
 {
     /**
@@ -14,5 +16,9 @@ class ExampleController extends Controller
         //
     }
 
-    //
+    // Request $request must be added as first argument
+    public function getAll(Request $request)
+    {
+        //
+    }
 }
